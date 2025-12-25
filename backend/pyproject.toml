@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "gamehub-backend"
+version = "1.0.0"
+description = "REST API каталога видеоигр с пользовательскими рецензиями"
+readme = "README.md"
+authors = ["GameHub Team <sprittzer13@gmail.com>"]
+license = "MIT"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python =  ">=3.11,<4.0"
+fastapi = "^0.109.2"
+uvicorn = {extras = ["standard"], version = "^0.27.1"}
+tortoise-orm = {extras = ["asyncpg"], version = "^0.20.0"}
+asyncpg = "^0.29.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pydantic = "^2.6.1"
+pydantic-settings = "^2.1.0"
+python-multipart = "^0.0.9"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.4"
+ruff = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+]
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "I"] 
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

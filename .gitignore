@@ -1,0 +1,177 @@
+# ===========================================
+# Python
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ruff
+.ruff_cache/
+
+# ===========================================
+# Node.js / Frontend
+# ===========================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Vite
+*.local
+
+# ===========================================
+# Environment
+# ===========================================
+
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# ===========================================
+# IDE / Editors
+# ===========================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# ===========================================
+# OS Generated
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ===========================================
+# Database
+# ===========================================
+
+*.sqlite3
+*.db
+
+# ===========================================
+# Logs
+# ===========================================
+
+logs/
+*.log
+
+# ===========================================
+# Misc
+# ===========================================
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Aerich migrations (keep in repo, but ignore local state)
+# migrations/
+
+# Docker
+.docker/
